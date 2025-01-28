@@ -21,7 +21,7 @@ app.post('/proxy', async (req, res) => {
         console.log("User IP Address: ", userIp);
 
         console.log("req body-----", req.body);
-        console.log("proxy agent ", proxyAgent);
+        // console.log("proxy agent ", proxyAgent);
         //   res.send(proxyAgent);
         const fetchOptions = {
             method: 'POST',
@@ -59,8 +59,7 @@ app.get('/getserverTime', async (req, res) => {
         console.log("User IP Address: ", userIp);
 
         console.log("req body-----", req.body);
-        console.log("proxy agent ", proxyAgent);
-        //   res.send(proxyAgent);
+              //   res.send(proxyAgent);
         const fetchOptions = {
             method: 'GET',
             headers: {
